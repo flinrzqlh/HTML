@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Studi Kasus Modul 3</title>
+</head>
+
+<body>
+	<h2>Studi Kasus: Vaildasi Input HTML5</h2>
+
+	<!-- Memanggil sebuah Form -->
+	<form action="" method="post">
+		<table>
+		
+		<!-- Menanyakan Nama Lengkap -->
+			<tr>
+				<td>Name:</td>
+				<td><input type="text" name="yourName" placeholder="Fill In Your Name" required size="30" pattern="[A-Za-z ]+"></td>
+			</tr>
+
+		<!-- Menanyakan Usia -->
+			<tr>
+				<td>Age:</td>
+				<td><input type="text" name="userName" required size="5" maxlength="2" min="17" max="30">(Usia min 17-30)</td>
+			</tr>
+
+		<!-- Menanyakan Email -->
+			<tr>
+				<td>E-mail:</td>
+				<td><input type="email" name="eMail" placeholder="name_email@host.com" required size="30" /></td>
+			</tr>
+
+		<!-- Menanyakan Website -->
+			<tr>
+				<td>Website:</td>
+				<td><input type="text" name="webSite" placeholder="https://" required size="40" /></td>
+			</tr>
+
+		<!-- Menanyakan Password -->
+			<tr>
+				<td>Password:</td>
+				<td><input type="Password" name="passWord" placeholder="All Characters, min 8" required size="25" minlength="8" /></td>
+			</tr>
+
+		<!-- Tombol Submit -->
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Make my Account" /></td>
+			</tr>	
+		</table>
+	</form>
+</body>
+</html>
