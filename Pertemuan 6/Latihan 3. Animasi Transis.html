@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Latihan 3. Animasi Transisi</title>
+<!-- Style untuk Latihan 3. Animasi Transis -->
+	<style type="text/css">
+/* First Box Condition */
+		.box {
+            width: 40%;
+            height: 100px;
+            background: orangered;
+            border: 2px solid black;
+/* Wide Box Animation */
+            -webkit-transition: width 1s ease-in-out;
+            -o-transition: width 1s ease-in-out;
+            -moz-transition: width 1s ease-in-out;
+            transition: width 1s ease-in-out;
+        }
+/* if landscape, widen up 100% */
+        @media (orientation:landscape) {
+            .box {
+                width: 100%;
+            }
+        }
+	</style>
+
+<!-- Kode Program HTML -->
+</head>
+<body>
+	<h3>Transitions</h3>
+	<div class = "box"></div>
+		<p>
+            Modify the Orientation to landscape/portrait and vice versa
+            to see the transition effect
+        </p>
+</body>
+</html>

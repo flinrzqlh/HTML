@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Latihan 1. Menggunakan Media Query</title>
+<!-- Style untuk Latihan 1 Desain Layout Sebelem HTML5 -->
+	<style type="text/css">
+/* Pengaturan default display none */
+		.smartphone {
+			display: none;
+		}
+
+/* Meida query unutk handphone 375px */
+		@media only screen and (max-width: 375px) {
+			body { 
+				background-color: yellowgreen;
+			}
+			.smartphone {
+				display: block;
+			}
+		}
+	</style>
+<!-- Kode Program HTML -->
+</head>
+<body>
+	<h3>Using CSS3 Query Media</h3>
+	<div class = "smartphone">
+		<h2>Handphone size Detected</h2>
+	</div>
+</body>
+</html>
