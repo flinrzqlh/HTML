@@ -1,0 +1,157 @@
+/* Container Margin */
+        .margin {
+            max-width: 600px;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            width: 600px;
+        }
+
+/* Header */
+        .mainHeader {
+            background-color: #fff;
+            padding: 10px;
+            margin-top: 0px;
+            box-shadow: 0 2px 5px rgba(0,0,0,.1);
+            width: 100%;
+        }
+        .submainHead {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 1;
+        }
+    /* Gambar Tanda Panah Kembali */
+        .backImg {
+            padding-left: 10px;
+        }
+    /* Gambar Logo Secreto */
+        .logoSecreto {
+            padding-right: 41%;
+        }
+
+/* Register Box */    
+        .regBox {
+            max-width: 600px;
+            width: 100%;
+            background-color: #e8f6ff;
+            border-radius: 4px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+    /* Title Tulisan "Secret Message Book" */
+        .regTitle {
+            text-align: center;
+            padding-top: 22px;
+            font-weight: 700;
+        }
+    /* List yang ada pada bagian Registrasi */
+        ul.a {
+            font-size: 120%;
+            color: grey;
+            padding-bottom: 10px;
+            padding-left: 30px;
+        }
+    /* Tempat Input Nama */
+        .form-control {
+            width: 95%;
+            margin-left: 15px;
+            height: 50px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+    /* Tombol Registrasi */
+        .btn {
+            width: 95%;
+            height: 50px;
+            background-color: #1d9bf0;
+            border-radius: 4px;
+            text-align: center;
+            color: #fff;
+            font-size: 16px;
+            display: inline-block;
+            margin-bottom: 35px;
+            margin-left: 15px;
+            font-weight: 500;
+        }
+
+/* Bagian Message */
+        .message {
+            max-width: 600px;
+            border-radius: 4px;
+            border: 1px dashed grey;
+            width: 100%;
+        }
+    /* Title Tulisan "Secret Message Book" pada Message */
+        .messageTitle {
+            text-align: center;
+            padding-top: 0;
+            font-weight: 700;
+            font-size: 140%;
+        }
+    /* List yang terdapat dalam bagian Message */
+        ul.b {
+            padding-bottom: 10px;
+            padding-left: 30px;
+            font-size: 14px;
+            color: #8a8d9f;
+            font-weight: 600;
+            list-style-image: url('BlueBullet15.png');
+        }
+
+/* Footer (Buat Bagian Contact dan Language) */
+        .footer {
+            max-width: 600px;
+            width: 100%;
+            border-radius: 4px;
+            padding-top: 250px;
+            text-align: center;
+        }
+
+    /* Bagian Contact */
+        .conaPP {
+            padding-bottom: 6px;
+        }
+        .Contact {
+            list-style: none;
+            font-size: 100%;
+            color: grey;
+            display: inline;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+    /* Bagian Language */
+        /* Wrapper Class */
+            .wrapper {
+                max-width: 600px;
+                width: 100%;
+            }
+        /* 3 Groups inside the Wrapper for the Languages */
+            .groupWrap {
+                float: left;
+                width: 190px;
+            }
+        /* Undordered List Class Style */
+            ul.Wrap {
+                font-size: 16px;
+                list-style-image: url('BlueBullet15.png');
+                text-align: justify;
+                color: #8a8d9f;
+            }
+        /* First Language List */
+            li.d1 {
+                padding-bottom: 23px;
+                margin-left: -20px;
+            }
+        /* Second Language List */
+            li.d2 {
+                padding-bottom: 23px;
+                margin-left: -18px;
+            }
+        /* Third Language List */
+            li.d3 {
+                padding-bottom: 23px;
+                margin-left: -8px;
+            }
