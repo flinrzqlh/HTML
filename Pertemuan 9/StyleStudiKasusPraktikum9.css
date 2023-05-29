@@ -40,7 +40,8 @@
     margin-top: 20px;
     margin-bottom: 15px;
 }
-/* Title Tulisan "Secret Message Book" */
+
+/* Title Tulisan "Elmo's Secret Stash" */
 .regTitle {
     text-align: center;
     padding-top: 22px;
@@ -48,12 +49,21 @@
     color: #fff;
 }
 /* List yang ada pada bagian Registrasi */
-ul.a {
+.a {
     font-size: 120%;
     color: rgb(255, 255, 255);
     padding-bottom: 10px;
     padding-left: 30px;
 }
+/* Error Message */
+.b {
+    list-style-type: none;
+    font-size: 120%;
+    color: rgb(115, 8, 0);
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
 /* Tempat Input Nama dan Password */
 .form-control {
     width: 95%;

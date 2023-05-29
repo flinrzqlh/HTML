@@ -31,7 +31,6 @@
     <div class="container margin">
         <div class="regBox">
             <h4 class="regTitle">Elmo's Secret Keeper</h4>
-            <div class="regList">
                 <ul class="a">
                     <li>
                         Welcome back, Muhammad Efflin Rizqallah Limbong!
@@ -40,7 +39,6 @@
                         You have successfully logged in!
                     </li>
                 </ul>
-            </div>
             <a href="Studi Kasus Modul 9.php"><button type="submit" class="btn btn-danger btn-md">Go Back to Login Page</button></a>
         </div>
     </div>
