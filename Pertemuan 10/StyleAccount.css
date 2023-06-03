@@ -1,0 +1,165 @@
+/* MAIN STYLE FOR BOTH ======================================================================= */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+}
+section {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+header {
+	position: relative;
+	width: 500px;
+	height: 480px;
+	border-radius: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+nav {
+	position: relative;
+	width: 500px;
+	margin-bottom: 20px;
+	border-radius: 15px;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.labelform {
+	width: 300px;
+	height: 30px;
+	font-size: 18px;
+	margin-bottom: 5px;
+	border-radius: 8px;
+	padding-left: 5px;
+}
+.Btn {
+	
+	width: 50%;
+	font-size: 19px;
+	font-weight: bold;
+	border-radius: 8px;
+	height: 50px;
+}
+
+
+/* STYLE FOR REGISTER PAGE ==================================================================== */
+h1.regis {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+body.regis {
+	background: url("Reserve3.jpg")no-repeat;    
+	background-size: cover;
+	font-family: 'Noto Sans', sans-serif;
+}
+nav.regis {
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+	background: rgba(253,202,199,0.3);
+}
+header.regis {
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+	background: rgba(253,202,199,0.3);
+}
+table.register {
+	text-align: left;
+	padding-left: 35px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+#lblfrmRegis {
+	background-color: rgba(234,101,175,0.3);
+	color: white;
+	border: 2px solid rgba(234,101,175,0.1);
+	margin-left: 5px;
+}
+#regis {
+	margin-top: 8px;
+	background-color: rgba(241,109,158,0.6);
+	border: 1px solid rgba(241,109,158,0.6);
+	color: whitesmoke;
+}
+#regis:hover {
+	background-color: rgba(241,109,158,1);
+	transform: scale(1.02);
+}
+
+/* STYLE FOR LOGIN PAGE ======================================================================== */
+h1.login {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+body.login {
+	background: url("Reserve4.png");
+}
+nav.login {
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+	background: rgba(137,255,253,0.2);
+}
+header.login {
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+	background: rgba(137,255,253,0.2);
+}
+table.login {
+	text-align: left;
+	padding-left: 35px;
+	font-size: 20px;
+	margin-bottom: 70px;
+}
+#lblfrmLogin {
+	background-color: rgba(138,254,253,0.4);
+	color: white;
+	border: 2px solid rgba(138,254,253,0.1);
+	margin-left: 5px;
+}
+#login {
+	margin-top: 8px;
+	background-color: rgba(139,251,252,0.4);
+	border: 1px solid rgba(139,251,252,0.1);
+	color: whitesmoke;
+}
+#login:hover {
+	background-color: rgba(139,251,252,0.7);
+	transform: scale(1.02);
+}
+
+/* STYLE FOR HOME PAGE ======================================================================== */
+h1.home {
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+body.home {
+	background: url("Homepage.jpg");
+}
+nav.home {
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+	background: rgba(64,228,255,0.3);
+}
+header.home {
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+	background: rgba(64,228,255,0.3);
+}
+#home {
+	background-color: rgba(0,211,216,0.4);
+	border: 1px solid rgba(0,211,216,0.1);
+	color: whitesmoke;
+}
+#home:hover {
+	background-color: rgba(0,211,216,0.6);
+	transform: scale(1.02);
+}
