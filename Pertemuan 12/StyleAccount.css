@@ -1,0 +1,67 @@
+/* MAIN STYLE FOR BOTH ======================================================================= */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Noto Sans', sans-serif;
+}
+section {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+header {
+	position: relative;
+	width: 500px;
+	height: 480px;
+	border-radius: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+nav {
+	text-align: center;
+}
+.labelform {
+	width: 300px;
+	height: 30px;
+	font-size: 18px;
+	margin-bottom: 5px;
+	border-radius: 8px;
+	padding-left: 5px;
+}
+.Btn {
+	width: 35%;
+	font-size: 19px;
+	font-weight: bold;
+	border-radius: 8px;
+	height: 50px;
+}
+
+/* STYLE FOR HOME PAGE ======================================================================== */
+h1.home {
+	margin-top: 45px;
+	margin-bottom: 40px;
+}
+body.home {
+	background: url("Homepage.jpg");
+}
+header.home {
+	border: 2px solid whitesmoke;
+	color: whitesmoke;
+	background: rgba(64,228,255,0.3);
+}
+#home {
+	background-color: rgba(0,211,216,0.4);
+	border: 1px solid rgba(0,211,216,0.1);
+	color: whitesmoke;
+}
+#home:hover {
+	background-color: rgba(0,211,216,0.6);
+	transform: scale(1.02);
+}

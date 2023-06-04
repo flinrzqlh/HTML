@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan 13</title>
+</head>
+<body>
+	<script>
+		// berikut ini merupakan contoh dari penanganan obejek string :
+		// Mengambil Panjang String:
+		let text = "Halo Semua!";
+		let length = text.length;
+		document.write(length)
+	</script>
+	<br>
+	<script>
+		// Mengakses Karakter dalam String:
+		let charachter = text[6];
+		document.write(charachter); // Output: e
+	</script>
+	<br>
+	<script>
+		// Menggabungkan Dua String:
+		let text1 = "Halo";
+		let text2 = "Semua!";
+		let merge = text1 + " " + text2;
+		document.write(merge);
+	</script>
+	<br>
+	<script>
+		// Memotong Bagian Tertentu dari String:
+		let slice = text.slice(5, 10);
+		document.write(slice);
+	</script>
+	<br>
+	<script>
+		// Mencari Posisi Awal Substring dalam String:
+		let position = text.indexOf("Semua");
+		document.write(position);
+	</script>
+	<br>
+	<script>
+		// Mengganti Substring dalam String:
+		let newText = text.replace("Semua", "Dunia");
+		document.write(newText);
+	</script>
+	<br>
+	<script>
+		// Mengecek Apakah String Mengandung Substring Tertentu:
+		let content = text.includes("Semua");
+		document.write(content); // Output: true
+	</script>
+	<br>
+	<script>
+		// Memisahkan String Menjadi Array:
+		let pisah = text.split(", ");
+		document.write(pisah);
+	</script>
+
+	</script>
+</body>
+</html>

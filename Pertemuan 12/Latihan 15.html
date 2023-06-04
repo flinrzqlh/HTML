@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Latihan 15</title>
+</head>
+<body>
+	<!-- Alert : -->
+	<button onclick="myAlert()">Press to display Alert Window</button>
+	<script>
+	function myAlert() {
+	  alert("Hello! I am an Alert Window!");
+	}
+	</script>
+
+	<!-- confirm : -->
+	<button onclick="myConfirm()">Press to display Confirm Window!</button>
+	<script>
+	function myConfirm() {
+	  confirm("Press a button!");
+	}
+	</script>
+
+	<!-- prompt : -->
+	<button onclick="myPrompt()">Press to display Prompt Window!</button>
+
+	<p id="demo"></p>
+
+	<script>
+	function myPrompt() {
+	  let person = prompt("Please enter your name", "Example: Cade Harris");
+	  if (person != null) {
+	    document.getElementById("demo").innerHTML =
+	    "Hello " + person + "! How are you today?";
+	  }
+	}
+	</script>
+</body>
+</html>
